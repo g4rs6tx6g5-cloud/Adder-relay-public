@@ -8,8 +8,8 @@
   ],
   "routes": [
     {
-      "src": "/api/binance-relay",
-      "dest": "/api/binance-relay.js"
+      "src": "/api/(.*)",
+      "dest": "/api/$1"
     }
   ]
 }
