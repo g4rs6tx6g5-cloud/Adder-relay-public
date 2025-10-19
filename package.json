@@ -1,9 +1,11 @@
 {
-  "name": "binance-relay",
-  "version": "1.0.0",
-  "description": "Serverless relay for Binance API",
-  "main": "api/binance-relay.js",
+  "name": "binance-relay-proxy",
+  "version": "1.0.0", 
+  "type": "module",
+  "dependencies": {
+    "node-fetch": "^3.3.2"
+  },
   "engines": {
-    "node": ">=18.x"
+    "node": "18.x"
   }
 }
