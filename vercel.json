@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "api/binance-relay.js",
+      "use": "@vercel/node"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/api/binance-relay",
+      "dest": "/api/binance-relay.js"
+    }
+  ]
+}
