@@ -1,0 +1,6 @@
+{
+  "runtime": "nodejs18.x",
+  "handler": "binance-relay.js",
+  "launcherType": "Nodejs",
+  "maxDuration": 10
+}
